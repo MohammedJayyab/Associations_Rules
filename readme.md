@@ -87,6 +87,18 @@ This script will:
 - Apply the Apriori algorithm to identify frequent itemsets and - - generate association rules.
 - Save the rules to `association_rules.pkl`.
 
+### Step 3: Test Association Rules
+
+Run the `test_association_rules.py` script to test and predict product combinations:
+
+`python test_association_rules.py`
+
+This script will:
+
+- Load the generated association rules from `association_rules.pkl`.
+- Predict products that are likely to be bought together with a specified product.
+- Print the top rules based on confidence and lift.
+
 ## 5. Results <a name="results"></a>
 
 ## 6. License <a name="License"></a>
