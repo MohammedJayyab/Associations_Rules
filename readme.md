@@ -26,10 +26,34 @@ We recommend creating a virtual environment to manage dependencies for the proje
 
 `python -m venv venv`
 
-## File Descriptions <a name="descriptions"></a>
+Activate the virtual environment:
 
-## Steps to Run <a name="steps"></a>
+- On Windows:
+  `venv\Scripts\activate`
 
-## Results <a name="results"></a>
+- On Mac/Linux:
 
-## License <a name="License"></a>
+`source venv/bin/activate`
+
+### Step 2: Install Dependencies
+
+Once the virtual environment is activated, install the necessary libraries using the `requirements.txt` file:
+
+`pip install -r requirements.txt`
+
+The required dependencies include:
+
+- pandas
+- scikit-learn
+- numpy
+- mlxtend
+- apyori
+- openpyxl
+
+## 3. File Descriptions <a name="descriptions"></a>
+
+## 4. Steps to Run <a name="steps"></a>
+
+## 5. Results <a name="results"></a>
+
+## 6. License <a name="License"></a>
