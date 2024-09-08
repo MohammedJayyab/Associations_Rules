@@ -4,7 +4,7 @@
 
 1. [Project Motivation](#motivation)
 2. [Installation](#installation)
-   File Descriptions(#descriptions)
-   Steps to Run(#steps)
-   Results(#results)
-   License(#license)
+3. [File Descriptions](#descriptions)
+4. [Steps to Run](#steps)
+5. [Results](#results)
+6. [License](#license)
