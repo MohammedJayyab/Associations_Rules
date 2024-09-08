@@ -110,7 +110,7 @@ The project successfully identifies associations between products from the datas
 - **Confidence**: 46.18%
 - **Lift**: 14.28
 
-  **Rule #2**: If a customer buys `"PAPER CHAIN KIT 50'S CHRISTMAS"`, they are also likely to buy `"PAPER CHAIN KIT VINTAGE CHRISTMAS"`.
+**Rule #2**: If a customer buys `"PAPER CHAIN KIT 50'S CHRISTMAS"`, they are also likely to buy `"PAPER CHAIN KIT VINTAGE CHRISTMAS"`.
 
 - **Confidence**: 35.63%
 - **Lift**: 11.01
@@ -122,3 +122,9 @@ The project successfully identifies associations between products from the datas
 - Alternative algorithms like FP-Growth could be explored for large datasets to speed up computation.
 
 ## 6. License <a name="License"></a>
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Conclusion:
+
+This project demonstrates how market basket analysis can be applied to real-world retail data to generate actionable insights and product recommendations using the Apriori algorithm.
