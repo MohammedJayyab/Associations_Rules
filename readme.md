@@ -116,4 +116,9 @@ The project successfully identifies associations between products from the datas
 - **Lift**: 11.01
   These rules can be used in retail systems to provide recommendations for frequently bought together products, which can drive cross-selling and improve the customer experience.
 
+### Further Improvements:
+
+- Lowering the minimum support and confidence thresholds can reveal more product combinations.
+- Alternative algorithms like FP-Growth could be explored for large datasets to speed up computation.
+
 ## 6. License <a name="License"></a>
