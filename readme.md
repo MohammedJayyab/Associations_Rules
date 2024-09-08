@@ -32,8 +32,7 @@ Activate the virtual environment:
   `venv\Scripts\activate`
 
 - On Mac/Linux:
-
-`source venv/bin/activate`
+  `source venv/bin/activate`
 
 ### Step 2: Install Dependencies
 
@@ -51,6 +50,16 @@ The required dependencies include:
 - openpyxl
 
 ## 3. File Descriptions <a name="descriptions"></a>
+
+The project includes the following key files:
+
+- `data_preprocessing_xls.py`: This script loads, cleans, and processes the raw retail data from an Excel file containing multiple sheets. It filters out canceled transactions and prepares a list of unique product descriptions. Additionally, it generates a transaction matrix for market basket analysis and saves it to a pickle file (`transactions.pkl`).
+
+- `generate_association_rules.py`: This script loads the transaction data from the pickle file, applies the Apriori algorithm to generate association rules, and saves the rules to a file (`association_rules.pkl`). It also prints and saves the generated rules for later use.
+
+`test_association_rules.py`: This script loads the previously generated association rules and tests them by predicting products likely to be bought together with a given product. It ranks the rules by confidence and lift and prints the top predicted product combinations.
+
+`requirements.txt`: A list of required libraries for the project.
 
 ## 4. Steps to Run <a name="steps"></a>
 
