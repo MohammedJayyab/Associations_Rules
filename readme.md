@@ -23,6 +23,7 @@ Real-world retail data to identify patterns of frequently bought products.
 ### Step 1: Create a Virtual Environment
 
 We recommend creating a virtual environment to manage dependencies for the project:
+
 `python -m venv venv`
 
 ## File Descriptions <a name="descriptions"></a>
