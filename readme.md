@@ -101,4 +101,18 @@ This script will:
 
 ## 5. Results <a name="results"></a>
 
+### Association Rules:
+
+The project successfully identifies associations between products from the dataset. Some examples of rules include:
+
+**Rule #1**: If a customer buys `"60 CAKE CASES VINTAGE CHRISTMAS"`, they are likely to also buy `"PAPER CHAIN KIT VINTAGE CHRISTMAS"`.
+
+- **Confidence**: 46.18%
+- **Lift**: 14.28
+  **Rule #2**: If a customer buys `"PAPER CHAIN KIT 50'S CHRISTMAS"`, they are also likely to buy `"PAPER CHAIN KIT VINTAGE CHRISTMAS"`.
+
+- **Confidence**: 35.63%
+- **Lift**: 11.01
+  These rules can be used in retail systems to provide recommendations for frequently bought together products, which can drive cross-selling and improve the customer experience.
+
 ## 6. License <a name="License"></a>
