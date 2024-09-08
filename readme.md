@@ -75,6 +75,18 @@ This script will:
 - Clean and filter out invalid or canceled transactions.
 - Save the processed transaction data as `transactions.pkl`.
 
+### Step 2: Generate Association Rules
+
+Run the `generate_association_rules.py` script to apply the Apriori algorithm and generate association rules:
+
+`python generate_association_rules.py`
+
+This script will:
+
+- Load the transaction dataset (`transactions.pkl`).
+- Apply the Apriori algorithm to identify frequent itemsets and - - generate association rules.
+- Save the rules to `association_rules.pkl`.
+
 ## 5. Results <a name="results"></a>
 
 ## 6. License <a name="License"></a>
