@@ -57,9 +57,9 @@ The project includes the following key files:
 
 - `generate_association_rules.py`: This script loads the transaction data from the pickle file, applies the Apriori algorithm to generate association rules, and saves the rules to a file (`association_rules.pkl`). It also prints and saves the generated rules for later use.
 
-`test_association_rules.py`: This script loads the previously generated association rules and tests them by predicting products likely to be bought together with a given product. It ranks the rules by confidence and lift and prints the top predicted product combinations.
+- `test_association_rules.py`: This script loads the previously generated association rules and tests them by predicting products likely to be bought together with a given product. It ranks the rules by confidence and lift and prints the top predicted product combinations.
 
-`requirements.txt`: A list of required libraries for the project.
+- `requirements.txt`: A list of required libraries for the project.
 
 ## 4. Steps to Run <a name="steps"></a>
 
