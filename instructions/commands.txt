@@ -1,0 +1,36 @@
+invoices, id, int, auto_increment
+invoices, invoiceId, int, 
+invoices, productId, int, 
+invoices, customerId, int, 
+invoices, total_points, int, 
+invoices, qty, int, 
+invoices, price, decimal, 
+invoices, discount, decimal, 
+invoices, total, decimal, 
+invoices, IsPromotion, tinyint, 
+invoices, IsDiscount, tinyint, 
+invoices, redeem, int, 
+invoices, invoice_date, timestamp, DEFAULT_GENERATED
+
+
+assum invoiceId starting from 2210 + 1.
+* please generate my SQL insert for 2000 records randomly, consider that:
+products starts from productId:1 to 144
+customers starts from customerId:1 to 49
+
+qty>0 mostly => 1  : 80% of the records is 1
+discount can be 0
+price always >0
+total >0 ==> total = price*qty - discount
+mostly no discounts mean 70% of the records do not have discounts
+total_points can be >=0 
+IsPromotion can be 0 or 1
+IsDiscount 0 or 1 if discount>0 then IsDiscount =1
+redeem always <total_points
+redeem can be 0
+invoice_date is random between '2023-01-01 10:25' to '2024-09-05 15:02'
+- no repeated productId in same invoice
+- invoice should have at least 2 different products and maximum 5 products
+- save result as txt file
+
+redeem (int)  to be a random number between 0 and total_points
