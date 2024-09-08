@@ -63,6 +63,18 @@ The project includes the following key files:
 
 ## 4. Steps to Run <a name="steps"></a>
 
+### Step 1: Preprocess the Data
+
+Run the `data_preprocessing_xls.py` script to load and clean the raw Excel data, and generate a transaction dataset:
+
+`python data_preprocessing_xls.py`
+
+This script will:
+
+- Combine data from all sheets in the Excel file.
+- Clean and filter out invalid or canceled transactions.
+- Save the processed transaction data as `transactions.pkl`.
+
 ## 5. Results <a name="results"></a>
 
 ## 6. License <a name="License"></a>
