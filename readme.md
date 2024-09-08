@@ -109,6 +109,7 @@ The project successfully identifies associations between products from the datas
 
 - **Confidence**: 46.18%
 - **Lift**: 14.28
+
   **Rule #2**: If a customer buys `"PAPER CHAIN KIT 50'S CHRISTMAS"`, they are also likely to buy `"PAPER CHAIN KIT VINTAGE CHRISTMAS"`.
 
 - **Confidence**: 35.63%
