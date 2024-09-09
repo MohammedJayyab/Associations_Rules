@@ -17,8 +17,12 @@ Thank you for kindly sharing these great data sources
 
 This project uses:
 
-The Apriori algorithm to find frequent itemsets and generate association rules.
-Real-world retail data to identify patterns of frequently bought products.
+- Collaborative filtering: is a key technique used in eCommerce recommendation systems to predict and suggest items that a user might be interested in based on the behavior of other users. In essence, it assumes that if two users have historically interacted with similar products, they are likely to enjoy the same additional products in the future. This method relies on user interaction data such as purchases, ratings, or clicks to find patterns in customer preferences. Collaborative filtering is often used to enhance customer experience by recommending relevant products, increasing engagement, and driving sales.
+
+In this project, collaborative filtering would complement the market basket analysis by leveraging user behaviors to recommend products that are frequently bought together, improving cross-selling opportunities in a retail setting. The combination of collaborative filtering and the Apriori algorithm allows for a powerful recommendation engine that offers personalized and association-based suggestions to customers.
+
+- The Apriori algorithm to find frequent itemsets and generate association rules.
+  Real-world retail data to identify patterns of frequently bought products.
 
 ## Installation <a name="installation"></a>
 
