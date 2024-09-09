@@ -1,4 +1,4 @@
-## Market Basket Analysis Using Apriori Algorithm
+## Market Basket Analysis Using Collaborative filtering implemented by Apriori Algorithm
 
 ### Table of Contents
 
