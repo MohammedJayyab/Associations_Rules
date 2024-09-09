@@ -12,6 +12,8 @@
 ## 1. Project Motivation <a name="motivation"></a>
 
 The goal of this project is to perform market basket analysis using the Apriori algorithm to identify product associations from transactional data. This technique allows us to generate association rules that can help in making product recommendations, such as "Customers who bought X also bought Y." These insights can be applied in retail environments for cross-selling and recommendation systems to improve customer experience and increase sales.
+The dataset is used from [Kaggle](https://www.kaggle.com).
+hank you for kindly sharing these great data sources
 
 This project uses:
 
