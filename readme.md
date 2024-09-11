@@ -1,4 +1,4 @@
-## Market Basket Analysis Using applying association rule mining using the Apriori algorithm.
+## Market Basket Analysis (MBA) Using applying association rule mining using the **Apriori algorithm.**
 
 ### Table of Contents
 
